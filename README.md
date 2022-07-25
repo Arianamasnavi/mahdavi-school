@@ -1,0 +1,93 @@
+# mahdavi-school
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariana Masnavi</title>
+</head>
+<body>
+  
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #000000;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #d30000;
+      color: white;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About us</a>
+    </div>
+    
+    <div style="padding-left:16px">
+     
+    </div>
+    
+  </div> 
+    <h1>Hello my name is Ariana</h1>
+    <p>I am Ariana, but people mostly call me Arshin</p>
+    <p>I study in Shahid Mahdavi School which is an <mark>IB</mark> school</p>
+    <a href="https://lms71.mahdavischool.org/login/index.php"target="_blank">mahdavi school site</a>
+    <h2>Grades</h2>
+    <ul>
+    <li>first grade</li>
+    <li>second grade</li> 
+    <li>third grade</li>
+    <li>forth grade</li>
+    <li>...</li>
+    </ul>
+
+    <h3>lessons</h3>
+    <ol>
+    <li>mathemathics </li>
+    <li>science</li>
+    <li>English</li>
+    <li>...</li>
+    </ol>
+        
+      <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+
+        <input type="submit">
+      </form>
+
+    
+
+  
+</body>
+</html>
